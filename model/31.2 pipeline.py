@@ -65,7 +65,7 @@ def main():
         'model': best_pipe,
         'metadata': {
             'name': 'loan prediction pipeline',
-            'author': 'Peter Fmelianov',
+            'author': '',
             'version': 1,
             'data': datetime.datetime.now(),
             'type': type(best_pipe.named_steps["classifier"]).__name__,
